@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react'
 import Square from './Square';
 import "../App.css";
 
-function Board() { 
+const Board = ()=> { 
+    const [square, setSquare] = useState([Array(9).fill(null)]);
     const renderSquare =(i) => {
         return(
-            <Square value ={i}/>
+            <Square value ={square[i]} onClick = {()=> handleClick(i)}/>
         )
+    }
+    const handleClick =(i)=> {
+        
+        const squares = square.slice();
+        squares[i] = 'X' ;
+        setSquare(squares)
+
     }
     return (
         <div className="board">
