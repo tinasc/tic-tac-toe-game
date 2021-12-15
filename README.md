@@ -1,3 +1,16 @@
+## Tic Tac Toe  
+
+•	Developed single page React game web app that allows users to play the game and declares the winner.
+
+•	Implemented HTML, CSS and React functional components and hooks.
+
+•	Published the web app on GitHub pages.
+
+
+Environment: React, HTML, CSS, JavaScript ES6, Git, React Hooks.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
